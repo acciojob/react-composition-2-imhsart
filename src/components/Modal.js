@@ -8,7 +8,9 @@ const Modal = ({show, onClose}) => {
           show && 
             <div className="model-overlay">
               <button className="model-close" onClick={onClose}>Close</button>
+              <div className="model">
               <p className="model-p">This is the content of the modal.</p>
+              </div>
             </div>
           
         }
