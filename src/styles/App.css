@@ -13,7 +13,7 @@ button{
   border:none;
   font-weight: bold;
 }
-.model-container{
+.model-overlay{
   background-color: rgb(146, 232, 253);
   width: 300px;
   margin: 10px;
