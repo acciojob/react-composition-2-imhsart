@@ -9,10 +9,10 @@ const App = () => {
     setShow(false)
   }
   return (
-    <>
+    <div>
         <button style={{margin:'10px'}} onClick={() => setShow(true)}>Show Modal</button>
         <Modal show={show} onClose={handleClose} />        
-    </>
+    </div>
   )
 }
 
